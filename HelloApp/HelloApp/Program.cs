@@ -6,10 +6,17 @@ namespace MyNamespace
         {
             Console.WriteLine("hello white");
         }
+        
+        public static void GreetBlack()
+        {
+            Console.WriteLine("hello black");
+        }
 
         public static void Main(string[] args)
         {
             Console.WriteLine("hello everyone");
+            GreetWhite();
+            GreetBlack();
         }
     }
 }
